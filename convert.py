@@ -29,7 +29,7 @@ def conv_bf16(t: Tensor):
 
 
 def conv_full(t):
-    return t
+    return t.float()
 
 
 _g_precision_func = {
